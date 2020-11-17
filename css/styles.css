@@ -1,0 +1,150 @@
+/*https://colorhunt.co/palette/192115*/
+
+body{
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+/*div{
+  background-color: #ddf3f5;
+}*/
+
+a{
+  color: #e36387;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f2aaaa;
+}
+
+h1{
+  color: #a6dcef;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5.625rem;  /*90px -> 90/16*/
+  margin: 50px auto 0;
+  /*margin: 0 auto; */ /*same as "margin: 0 auto 0 auto;" or margin: 0 auto 0;"*/
+}
+
+h2{
+  color: #a6dcef;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;  /*40px -> 40/16*/
+  padding: 10px;
+}
+
+h3{
+  color: #e36387;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-style: none;
+  border-top: 3px dotted gray;
+  border-width: 5px;
+  width: 7%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+
+.top-container {
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: white;
+  margin: 100px 0px;
+}
+
+.bottom-container{
+  background-color: #A6DCEF;
+  padding: 50px 0 20px;
+
+}
+
+.contact-button {
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   font-size: 1.2rem;
+   font-weight: 100;
+   padding: 15px;
+   background-color: #A6DCEF;
+   border: solid #DDF3F5 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-button:hover {
+   background: #E36387;
+   border: solid #F2AAAA 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #ddf3f5;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.p-normal{
+  font-weight: normal;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  overflow: auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 250px;
+}
+
+.program-img{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.game-img{
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
